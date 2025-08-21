@@ -8,6 +8,14 @@ function App() {
 
   return (
     <>
+      <div className="">
+        <div className="text-white-500 text-3xl">
+          ついでにデリバリー
+        </div>
+        <div className="text-white-500 text-6xl subpixel-antialiased font-medium">
+          ついデリ
+        </div>
+      </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
