@@ -2,20 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from "./components/Header/Header" 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="">
-        <div className="text-white-500 text-3xl">
-          ついでにデリバリー
-        </div>
-        <div className="text-white-500 text-6xl subpixel-antialiased font-medium">
-          ついデリ
-        </div>
-      </div>
+      <Header />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
